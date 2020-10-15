@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
-import Timer from './Timer/Timer'
+import Countdown from './Countdown/Countdown'
 
 function App() {
   const SEC = 1000;
@@ -34,28 +34,13 @@ function App() {
     }, SEC);
   });
 
-  const timerComponents = [];
-
-  Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
-      return;
-    }
-
-    timerComponents.push(
-      <Timer
-        number={timeLeft[interval]}
-        label={interval}
-      />
-    );
-  });
-
   return (
     <React.Fragment>
       <header>
         <h1>Time to see you again</h1>
       </header>
       <main>
-        {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+        <Countdown timeLeft={timeLeft} />
       </main>
       <footer>
         <p>Made with <span role="img" aria-label="love">💖</span> by <a href="https://github.com/nmicht/">@nmicht</a> at Berlin</p>

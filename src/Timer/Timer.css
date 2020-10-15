@@ -1,6 +1,7 @@
 .timerComponent {
   border: 1px solid black;
   text-align: center;
+  flex-grow: 1;
 }
 
 .timerComponent span {
