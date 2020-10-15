@@ -1,0 +1,8 @@
+.timerComponent {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.timerComponent span {
+  display: block;
+}
