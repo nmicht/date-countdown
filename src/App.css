@@ -1,38 +1,25 @@
-.App {
+/* #2e2e36
+#495058
+#a67227
+#e0b49b
+#d1ced9 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+html {
+  background-color: #2e2e36;
   text-align: center;
+  color: #d1ced9;
+  padding-top: 10em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #a67227;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-family: "Rochester";
+  text-transform: capitalize;
+  font-size: 6rem;
+  color: #e0b49b;
 }

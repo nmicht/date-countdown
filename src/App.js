@@ -37,10 +37,11 @@ function App() {
   return (
     <React.Fragment>
       <header>
-        <h1>Time to see you again</h1>
+
       </header>
       <main>
         <Countdown timeLeft={timeLeft} />
+        <h1>Para volverte a ver</h1>
       </main>
       <footer>
         <p>Made with <span role="img" aria-label="love">💖</span> by <a href="https://github.com/nmicht/">@nmicht</a> at Berlin</p>

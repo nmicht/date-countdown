@@ -1,4 +1,33 @@
 .countdown {
   width: 50%;
   display: flex;
+  font-family: GothamBold;
+  color: #d1ced9;
+  margin: 0 auto;
 }
+
+.timerComponent:nth-child(1) {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.timerComponent:nth-child(4) {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+/* #2e2e36
+#495058
+#a67227
+#e0b49b
+#d1ced9 */
