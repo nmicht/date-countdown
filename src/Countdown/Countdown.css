@@ -1,9 +1,8 @@
 .countdown {
-  width: 50%;
   display: flex;
   font-family: GothamBold;
   color: #d1ced9;
-  margin: 0 auto;
+  margin: 0 5%;
 }
 
 .timerComponent:nth-child(1) {
@@ -23,11 +22,3 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
-
-
-/* #2e2e36
-#495058
-#a67227
-#e0b49b
-#d1ced9 */
